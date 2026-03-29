@@ -20,7 +20,6 @@
     }
 }
 
-/*! ClearVision - Vencord Addon v7.0.1 by ClearVision Team */
 .vc-btn-primary {
     background: var(--hsl-main-color);
     border-color: rgba(0, 0, 0, 0);
@@ -81,7 +80,6 @@
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision - Vencord Addon v7.0.1 by ClearVision Team */
 :is(.theme-light,.theme-dark) #vc-spotify-player {
     background: rgba(0, 0, 0, 0)
 }
