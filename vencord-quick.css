@@ -162,3 +162,11 @@
   box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.7), 0 0 8px rgba(0, 240, 255, 0.15) !important; /* ярче при фокусе */
   border-color: transparent !important;
 }
+
+/* Убираем фон у внутренних контейнеров поля ввода */
+.channelTextArea__74017 .scrollableContainer__74017,
+.channelTextArea__74017 .inner__74017,
+.channelTextArea__74017 [class*="inner"],
+.channelTextArea__74017 [class*="scrollable"] {
+  background-color: transparent !important;
+}
