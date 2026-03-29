@@ -146,9 +146,24 @@
   outline: 1px solid rgba(0, 240, 255, 0.2);
 }
 
-/* Scrollbar — cyan → magenta gradient */
 :is(:is(.auto__99f8c, .auto_d125d2), :is(.thin__99f8c, .thin_d125d2))::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #00f0ff, #ff4fd8) !important;
+  background: linear-gradient(to bottom, rgba(0, 240, 255, 0.6), rgba(176, 52, 144, 0.6)) !important;
+  border-radius: 4px;
+}
+
+:is(:is(.auto__99f8c, .auto_d125d2), :is(.thin__99f8c, .thin_d125d2))::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #00f0ff, #b03490) !important;
+}
+
+/* Поиск (Ctrl+K) — hover и selected эффекты */
+.result__71961:hover {
+  background: rgba(0, 240, 255, 0.08) !important;
+  outline: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.result__71961[aria-selected=true] {
+  background: rgba(0, 240, 255, 0.12) !important;
+  outline: 1px solid rgba(0, 240, 255, 0.35);
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
