@@ -150,3 +150,13 @@
 :is(:is(.auto__99f8c, .auto_d125d2), :is(.thin__99f8c, .thin_d125d2))::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #00f0ff, #ff4fd8) !important;
 }
+.channelTextArea__74017 {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.channelTextArea__74017:focus-within {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.4) !important;
+}
