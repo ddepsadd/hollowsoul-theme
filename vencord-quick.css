@@ -24,6 +24,10 @@
   --streaming-color: #b060ff;
   --offline-color: #4a4a5e;
 
+  --interactive-text-active: var(--main-color);
+  --interactive-text-default: var(--normal-text);
+  --interactive-text-hover: var(--hover-color);
+
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
   --background-image: url(https://raw.githubusercontent.com/ddepsadd/ddepsadd/main/moscow_cyberpunk_split.png);
@@ -158,22 +162,12 @@
 /* Поиск (Ctrl+K) — hover и selected эффекты */
 .result__71961:hover {
   background: rgba(0, 240, 255, 0.08) !important;
-  outline: 1px solid rgba(0, 240, 255, 0.2);
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35);
+  outline: 1px solid rgba(0, 240, 255, 0.35);
 }
 
 .result__71961[aria-selected=true] {
   background: rgba(0, 240, 255, 0.12) !important;
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35);
   outline: 1px solid rgba(0, 240, 255, 0.35);
-}
-
-/* ADD ADDITIONAL CSS BELOW HERE */
-
-/* Убираем фон у внутренних контейнеров поля ввода */
-.channelTextArea__74017 .scrollableContainer__74017,
-.channelTextArea__74017 .inner__74017,
-.channelTextArea__74017 .sansAttachButton__74017,
-.scrollableContainer__74017,
-.inner__74017,
-.sansAttachButton__74017 {
-  background-color: transparent !important;
 }
