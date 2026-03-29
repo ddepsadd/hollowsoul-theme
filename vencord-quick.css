@@ -162,3 +162,30 @@
 .sansAttachButton__74017 {
   background-color: transparent !important;
 }
+
+/* 1. Быстрый поиск (Ctrl+K) — выделенный элемент: тёмный фон вместо ярко-розового */
+.result__71961[aria-selected=true] {
+  background: rgba(14, 14, 26, 0.85) !important;
+  outline: 1px solid rgba(0, 240, 255, 0.3);
+}
+
+/* 2. Обводка поля ввода — статичная, не меняется при фокусе */
+.channelTextArea__74017 {
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35) !important;
+}
+
+.channelTextArea__74017:focus-within {
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35) !important;
+}
+
+/* 3. Пинги (@mention) — тёмный фон, читаемый текст */
+.wrapper_f61d60 {
+  background-color: rgba(0, 240, 255, 0.15) !important;
+  color: #c0c0cc !important;
+  border: 1px solid rgba(0, 240, 255, 0.4);
+}
+
+.wrapper_f61d60:hover {
+  background-color: rgba(0, 240, 255, 0.25) !important;
+  color: #e8e8f0 !important;
+}
