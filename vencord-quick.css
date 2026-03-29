@@ -51,8 +51,8 @@
   --home-size: cover;
 
   /* FONTS */
-  --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --code-font: "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  --main-font: "JetBrainsMono Nerd Font", "JetBrains Mono", "gg sans", sans-serif;
+  --code-font: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", Consolas, monospace;
 
   /* CHANNEL COLORS */
   --channel-normal: #8a8a9e;       /* мягкий серо-фиолетовый, не слишком яркий */
@@ -150,13 +150,15 @@
 :is(:is(.auto__99f8c, .auto_d125d2), :is(.thin__99f8c, .thin_d125d2))::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #00f0ff, #ff4fd8) !important;
 }
+/* Chat input — прозрачный фон, постоянная cyan обводка */
 .channelTextArea__74017 {
   background-color: transparent !important;
-  box-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35) !important; /* постоянная обводка */
   border-color: transparent !important;
 }
 
 .channelTextArea__74017:focus-within {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.7), 0 0 8px rgba(0, 240, 255, 0.15) !important; /* ярче при фокусе */
   border-color: transparent !important;
-  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.4) !important;
 }
