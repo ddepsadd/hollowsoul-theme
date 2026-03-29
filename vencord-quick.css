@@ -162,14 +162,12 @@
 /* Поиск (Ctrl+K) — hover и selected эффекты */
 .result__71961:hover {
   background: rgba(0, 240, 255, 0.08) !important;
-  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35);
-  outline: 1px solid rgba(0, 240, 255, 0.35);
-  border-radius: 0px;
+  box-shadow: inset 0 0 0 1px rgba(0, 240, 255, 0.35);
+  outline: none;
 }
 
 .result__71961[aria-selected=true] {
   background: rgba(0, 240, 255, 0.12) !important;
-  box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35);
-  outline: 1px solid rgba(0, 240, 255, 0.35);
-  border-radius: 0px;
+  box-shadow: inset 0 0 0 1px rgba(0, 240, 255, 0.35);
+  outline: none;
 }
