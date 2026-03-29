@@ -555,15 +555,15 @@ code {
 }
 
 .channelTextArea__74017 {
-    background-color: var(--hsl-input-shading);
-    box-shadow: 0 0 0 2px var(--hsl-input-border-shading);
-    border-color: rgba(0, 0, 0, 0)
-}
+        background-color: transparent;
+        box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.35);
+        border-color: rgba(0, 0, 0, 0)
+    }
 
-.channelTextArea__74017:focus-within {
-    border-color: rgba(0, 0, 0, 0);
-    box-shadow: 0 0 2px 2px var(--hsl-main-color)
-}
+    .channelTextArea__74017:focus-within {
+        border-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 1px rgba(0, 240, 255, 0.7), 0 0 8px rgba(0, 240, 255, 0.15)
+    }
 
 .stackedBars__74017, .channelAttachmentArea_b77158 {
     background: rgba(0, 0, 0, 0)
