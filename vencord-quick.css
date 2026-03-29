@@ -166,7 +166,9 @@
 /* Убираем фон у внутренних контейнеров поля ввода */
 .channelTextArea__74017 .scrollableContainer__74017,
 .channelTextArea__74017 .inner__74017,
-.channelTextArea__74017 [class*="inner"],
-.channelTextArea__74017 [class*="scrollable"] {
+.channelTextArea__74017 .sansAttachButton__74017,
+.scrollableContainer__74017,
+.inner__74017,
+.sansAttachButton__74017 {
   background-color: transparent !important;
 }
